@@ -20,7 +20,8 @@
     </div>
 
     <div class="boutons">
-    <?php if( isset($_SESSION['login']) && $_SESSION['login'] !== null) : ?>
+        <a href="#" class="btn">Inscription</a>
+        <a href="connexion.php" class="btn">Connexion</a>
         <a href="deco.php" class="btn">Déconnexion</a>
     <?php else : ?>
         <a href="inscription.php" class="btn">Inscription</a>
